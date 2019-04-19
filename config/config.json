@@ -1,0 +1,8 @@
+{
+    "PluginDir": "./sym",
+    "Plugins": [
+        "checkout",
+        "orders",
+        "store"
+    ]
+}

@@ -10,7 +10,8 @@ import (
 )
 
 func Start(flags *cmd.CommandFlags) {
-	var r *mux.Router = InitRouter()
+	var config *Config = ReadConfig(flags.Config)
+	var r *mux.Router = InitRouter(config)
 	RouteWalk(r)
 	server := &http.Server{
 		Addr:         flags.Host + ":" + flags.Port,
