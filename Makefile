@@ -9,7 +9,7 @@ SRC := main.go
 BIN := orchestrator
 COV := coverage
 TEST:= ${CC} test -v 
-
+LINT:=../../../../bin/golint
 BLACK:=0
 RED:=1
 GREEN:=2
@@ -71,4 +71,4 @@ lint: ${FILES}
 	@$(call clrprint, ${BLACK}, ${YELLOW}, "Formating files..")
 	@for file in ${FILES}; do ${CC} fmt $${file}; done
 	@$(call clrprint, ${BLACK}, ${BLUE}, "Linting files..")
-	@for file in ${FILES}; do ./bin/golint $${file}; done
+	@for file in ${FILES}; do ${LINT} $${file}; done
