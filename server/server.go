@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"time"
 
-	"gecgithub01.walmart.com/k0k00bt/g-orchestrator/cmd"
 	"github.com/gorilla/mux"
+	"github.com/krishna2nd/g-orchestrator/cmd"
 )
 
 func Start(flags *cmd.CommandFlags) {

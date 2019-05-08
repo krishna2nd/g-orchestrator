@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"plugin"
 
-	"gecgithub01.walmart.com/k0k00bt/g-orchestrator/service"
 	"github.com/gorilla/mux"
+	"github.com/krishna2nd/g-orchestrator/service"
 )
 
 func InitRouter(config *Config) *mux.Router {

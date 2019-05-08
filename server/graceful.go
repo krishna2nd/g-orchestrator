@@ -7,7 +7,7 @@ import (
 	"os"
 	"os/signal"
 
-	"gecgithub01.walmart.com/k0k00bt/g-orchestrator/cmd"
+	"github.com/krishna2nd/g-orchestrator/cmd"
 )
 
 // GracefulExit the server

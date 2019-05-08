@@ -1,8 +1,8 @@
 package main
 
 import (
-	"gecgithub01.walmart.com/k0k00bt/g-orchestrator/cmd"
-	"gecgithub01.walmart.com/k0k00bt/g-orchestrator/server"
+	"github.com/krishna2nd/g-orchestrator/cmd"
+	"github.com/krishna2nd/g-orchestrator/server"
 )
 
 func main() {

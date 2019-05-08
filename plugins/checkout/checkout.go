@@ -34,7 +34,7 @@ func (s service) Handle() string {
 }
 
 func (s service) HandlerFunc(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Response checkout")
+	fmt.Fprintf(w, "Response checkout data")
 }
 
 var Service service
